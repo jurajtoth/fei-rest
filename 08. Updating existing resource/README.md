@@ -17,6 +17,7 @@
     "numberOfPages": 480
   	}
 	</pre>
+	- click **Send**
 3. Try to GET the book *The Lord of the Rings: The Fellowship of the Ring* and check if author name was updated.
 4. You can also try to call this service for unexisting book (ISBN). Service should return **HTTP 403 Forbidden**.
 

@@ -7,6 +7,6 @@
 2. After implementing the service, restart the application and test your new service with postman.
 	- try to delete any single book that is in database
 	- you can try deleting book *The Lord of the Rings: The Fellowship of the Ring* by its **ISBN** @ [http://localhost:8080/book/0544003411](http://localhost:8080/book/0544003411) using **HTTP DELETE** method
-3. You can try to request deleted book @ [http://localhost:8080/book/0544003411](http://localhost:8080/book/0544003411) using **HTTP GET** and checking if it was removed from database.
+3. You can try to request deleted book @ [http://localhost:8080/book/0544003411](http://localhost:8080/book/0544003411) using **HTTP GET** and check if it was removed from database.
 
 Next exercise: [07. Creating new resource](https://github.com/jurajtoth/fei-rest/tree/master/07.%20Creating%20new%20resource)

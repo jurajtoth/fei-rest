@@ -18,6 +18,6 @@
 	}
 	</pre>
 3. Try to GET all resources and check if new book was added.
-4. You can also try to call the service from step 2 multiple times. Resource should be in database already after the first call and the service should return **HTTP 403 Forbidden**.
+4. You can also try to call the service from step 2 multiple times. Resource should be in database already after the first call and the service will return **HTTP 403 Forbidden**.
 
-Next exercise:
+Next exercise: [08. Updating existing resource](https://github.com/jurajtoth/fei-rest/tree/master/08.%20Updating%20existing%20resource)

@@ -7,4 +7,4 @@
 	- try to request all books filtered by author
 	- you can try requesting books by *J.K. Rowling* @ [http://localhost:8080/book?author=J.K. Rowling](http://localhost:8080/book?author=J.K.%20Rowling) using **HTTP GET** method
 
-Bonus exercise:
+You can also try [bonus exercise](https://github.com/jurajtoth/fei-rest/tree/master/Bonus%20exercise). 

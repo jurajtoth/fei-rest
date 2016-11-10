@@ -28,5 +28,5 @@ public String helloWorld(@RequestParam("name") String name) {
 will return **Hello John** text if you access the application @ `http://localhost:8080/hello?name=John` using **HTTP GET** method.
 ___
 
-You can now start implementing in next exercise: 
+You can now start implementing in next exercise: [03. Getting all resources](https://github.com/jurajtoth/fei-rest/tree/master/03.%20Getting%20all%20resources)
 

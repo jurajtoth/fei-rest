@@ -20,4 +20,4 @@
 3. Try to GET the book *The Lord of the Rings: The Fellowship of the Ring* and check if author name was updated.
 4. You can also try to call this service for unexisting book (ISBN). Service should return **HTTP 403 Forbidden**.
 
-Next exercise:
+Next exercise: [09. Getting filtered resources](https://github.com/jurajtoth/fei-rest/tree/master/09.%20Getting%20filtered%20resources)

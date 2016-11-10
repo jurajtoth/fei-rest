@@ -8,4 +8,4 @@
 	- downloaded project is a **maven** project, but NetBeans IDE will download **SpringBoot** library and all other dependencies automatically according to **pom.xml** file in the project.
 4. Read javadoc in all existing **.java** files in the project. You will be using this classes to implement your REST application.
 
-Next exercise:
+Next exercise: [02. Basic REST application with SpringBoot](https://github.com/jurajtoth/fei-rest/tree/master/02.%20Basic%20REST%20application%20with%20SpringBoot)

@@ -8,4 +8,4 @@
 	3. Click **Send button**
 4. You will receive the **json** response and it will be displayed in Postman.
 
-Next exercise:
+Next exercise: [05. Getting single resource](https://github.com/jurajtoth/fei-rest/tree/master/05.%20Getting%20single%20resource)

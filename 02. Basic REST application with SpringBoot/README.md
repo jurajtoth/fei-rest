@@ -9,7 +9,6 @@ public String helloWorld() {
 }
 </pre>
 will return **Hello World** text if you access the application @ `http://localhost:8080/hello` using **HTTP GET** method.
-
 <pre>
 @RequestMapping(value = "/hello/{name}", method = RequestMethod.GET)
 public String helloWorld(@PathVariable("name") String name) {
@@ -17,7 +16,6 @@ public String helloWorld(@PathVariable("name") String name) {
 }
 </pre>
 will return **Hello John** text if you access the application @ `http://localhost:8080/hello/John` using **HTTP GET** method.
-
 <pre>
 @RequestMapping(value = "/hello", method = RequestMethod.GET)
 public String helloWorld(@RequestParam("name") String name) {

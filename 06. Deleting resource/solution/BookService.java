@@ -18,13 +18,13 @@ public class BookService {
     
     private final BookDatabase bookDatabase = new BookDatabase();
     
-    @RequestMapping(value = "/book", method = RequestMethod.GET)
+    @RequestMapping(value = "/books", method = RequestMethod.GET)
     public List<Book> getBooks() {
         List<Book> allBooks = bookDatabase.getAllBooks();
         return allBooks;
     }
     
-    @RequestMapping(value = "/book/{isbn}", method = RequestMethod.GET)
+    @RequestMapping(value = "/books/{isbn}", method = RequestMethod.GET)
     public Book getSingleBook(@PathVariable("isbn") String isbn) {
         Book book = bookDatabase.getBook(isbn);
         if(book == null) {
@@ -33,7 +33,7 @@ public class BookService {
         return book;
     }
     
-    @RequestMapping(value = "/book/{isbn}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/books/{isbn}", method = RequestMethod.DELETE)
     public void deleteBook(@PathVariable("isbn") String isbn) {
         bookDatabase.removeBook(isbn);
     }

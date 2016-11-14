@@ -18,7 +18,7 @@ public class BookService {
     
     private final BookDatabase bookDatabase = new BookDatabase();
     
-    @RequestMapping(value = "/book", method = RequestMethod.GET)
+    @RequestMapping(value = "/books", method = RequestMethod.GET)
     public List<Book> getBooks() {
         List<Book> allBooks = bookDatabase.getAllBooks();
         return allBooks;
